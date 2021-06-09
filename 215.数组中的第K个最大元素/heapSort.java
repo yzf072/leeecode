@@ -1,4 +1,4 @@
-class Solution {
+class heapSort {
     public int findKthLargest(int[] nums, int k) {
         int heapSize=nums.length;
         buildMaxHeap(nums, heapSize);
