@@ -4,10 +4,6 @@ class Violence {
         Arrays.sort(nums);
         return nums[nums.length-k];
     }
-
-    public void public static void main(String[] args) {
-        
-    }
 }
 
 /*
