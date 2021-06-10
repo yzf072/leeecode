@@ -1,4 +1,4 @@
-class Solution {
+class SlideWindow {
     public int lengthOfLongestSubstring(String s) {
         //哈希集合记录每个字符是否出现
         Set<Character> occ=new HashSet<Character>();
@@ -27,6 +27,9 @@ class Solution {
 使用两个指针表示子串的左右边界；每次左指针移动一格，把当前字符作为起始字符，然后右指针不断移动，但要保证两个指针之间没有重复的字符
 一次结束，就是从当前字符开始最长的子串
 使用《哈希表》判断是否有重复字符，左移动就删除，右移动就添加
+删除：occ.remove
+增加：occ.add
+
 
 时间：O(n)，n为字符串长度，左右指针各遍历一遍字符串
 空间：O(x)，x为字符集大小，哈希表要存多少种字符

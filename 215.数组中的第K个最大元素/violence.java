@@ -1,10 +1,13 @@
 import java.util.Arrays;
-class violence {
+class Violence {
     public int findKthLargest(int[] nums, int k) {
         Arrays.sort(nums);
         return nums[nums.length-k];
     }
 
+    public void public static void main(String[] args) {
+        
+    }
 }
 
 /*

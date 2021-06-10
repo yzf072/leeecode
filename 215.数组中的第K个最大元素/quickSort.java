@@ -1,6 +1,6 @@
 import java.util.Random;
 
-class quickSort {
+class QuickSort {
     Random random = new Random();
 
     public int findKthLargest(int[] nums, int k) {      //使用快排
